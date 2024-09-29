@@ -47,6 +47,7 @@
 
       <div class="third-box">
         <div class="footer-links">
+          友情链接: 
           {{#each (theme-setting "small_links") as |link|}}
             <a
               class="small-link"
@@ -59,7 +60,7 @@
           {{/each}}
         </div>
 
-        <div class="social">
+        {{!-- <div class="social">
           {{#each (theme-setting "social_links") as |link|}}
             <a
               class="social-link"
@@ -71,7 +72,7 @@
               {{d-icon link.icon_name}}
             </a>
           {{/each}}
-        </div>
+        </div> --}}
       </div>
     </div>
   </div>
